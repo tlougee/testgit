@@ -37,6 +37,10 @@ https://www.youtube.com/watch?v=DVRQoVRzMIY&ab_channel=TechWithTim
 - Make sure you are in the local branch you want to push then issue this command:
    >git push -u origin master  - this tells git to push the branch you are on to the 'master' branch 
     of the repository that 'origin' is linked to.
+    The '-u' tells Git to remember these settings so 
+    next time we want to push the changes up to Github we can just type >git push
+    - refresh the github 'Code' tab to see the changes
+
 - click on the file and then on the little pencil icon on the upper right to edit a file on Github. 
 - Scroll down to commit the changes in the browser and add a comment.
 
