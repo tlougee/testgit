@@ -47,6 +47,11 @@ https://www.youtube.com/watch?v=DVRQoVRzMIY&ab_channel=TechWithTim
 
 - click on the file and then on the little pencil icon on the upper right to edit a file on Github. 
 - Scroll down to commit the changes in the browser and add a comment.
+- use command >git pull origin master   to pull down the latest code from the remote repository.
+- If there are merge conflicts you need to refresh the files and delete the crap git added and make the
+  files look the way you want them to then add them back in the staging area then do a commit.
+- Now all you have to type is >git push to push the changes up to the remote repository  
+  
 
 
 
