@@ -1,0 +1,72 @@
+UN: tlougee
+PW:  v%rbGjhg;4DBr^y[0we;rjgjgfhwuuwiuhef
+tlougee@gmail.com
+tlougee@transparent.com
+
+*********************************************************************************
+
+- Install Git on local system
+- Configure Git with your username and email address:
+       C:\Users\tlougee>git config --global user.name "tlougee"
+       C:\Users\tlougee>git config --global user.email "tlougee@gmail.com"
+- Make a new repo on your local system by just making a dir for it:
+       C:\Users\tlougee\>mkdir projects\testgit
+       CD \projects\testgit
+-  Initialize the new Git repository using 'git init' command
+       C:\Users\tlougee\>mkdir projects\testgit>git init
+-Now you can run Git commands when in this repo
+-Now you can add files to this repo and Git will be track them and any changes to them.
+-Add files to the Git 'staging area' which are the files you want to add in the next commit
+      C:\Users\tlougee\>mkdir projects\testgit>git add 'name of the file'
+   Ex: C:\Users\tlougee\>mkdir projects\testgit>git add github.txt
+   - Use >git status command to see what files are in the staging area waiting to be commited
+-Commit the file(s)   C:\Users\tlougee\>mkdir projects\testgit>git commit -m "added github.txt"
+    -m allows you to include a short message about the commit 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2b2be-7f544
+f5fd4-31edc
+f802e-f04d6
+78ac2-40cc0
+282f9-b9717
+e6d7b-f6813
+2f0a8-faa96
+16d98-cdcf9
+d8065-00bfd
+9e98b-b33f2
+e5af0-2fb38
+5ae20-5fb86
+dd267-05412
+c7607-be280
+58c1e-7ed89
+32b82-e39e1
+
+
+cbr600f3
+
+access token for class:  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
