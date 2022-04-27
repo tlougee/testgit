@@ -36,8 +36,7 @@ https://www.youtube.com/watch?v=DVRQoVRzMIY&ab_channel=TechWithTim
 'upstream' to indicate it is the repository on the upstream server, etc.
 - Make sure you are in the local branch you want to push then issue this command:
    >git push -u origin master  - this tells git to push the branch you are on to the 'master' branch 
-    of the repository that 'origin' is linked to.  
-	The '-u' tells Git to remember these settings so 
+    of the repository that 'origin' is linked to.  The '-u' tells Git to remember these settings so 
     next time we want to push the changes up to Github we can just type >git push
     - refresh the github 'Code' tab to see the changes
 
