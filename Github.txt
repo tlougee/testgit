@@ -4,6 +4,7 @@ tlougee@gmail.com
 tlougee@transparent.com
 
 *********************************************************************************
+https://www.youtube.com/watch?v=DVRQoVRzMIY&ab_channel=TechWithTim
 
 - Install Git on local system ( note Git Add wasn't working so Ihad to reinstall and uncheck new experimental monitoring on last installer screen to get Git to work )
 - Configure Git with your username and email address:
@@ -23,7 +24,19 @@ tlougee@transparent.com
 -Commit the file(s)   C:\Users\tlougee\>mkdir projects\testgit>git commit -m "added github.txt"
     -m allows you to include a short message about the commit
     - >git add .  command lets you add all files to the staging area 
+- to make a new branch type >git checkout -b nameofmynewbranch
+  type >git checkout master to go back to the master branch
+  when in new branch type >git merge master    to merge the changes in the master
+  branch into your new branch to keep your new branch up to date with any changes made to the master 
+  branch since you made the new branch
 
+--- On Github make a new repository by clicking on the '+' sign in upper right hand corner and select
+'New Repository' from the drop down then give it a name.
+-Next copy the line:  "git remote add origin https://github.com/tlougee/testgit.git" This 'Adds a link to a remote repository.'  The identifier 'origin' is now mapped to this url 'https://github.com/tlougee/testgit.git' You don't have to name it 'origin'  Some people name it
+'upstream' to indicate it is the repository on the upstream server, etc.
+- Make sure you are in the local branch you want to push then issue this command:
+   >git push -u origin master  - this tells git to push the branch you are on to the 'master' branch 
+    of the repository that 'origin' is linked to.
 
 
 
