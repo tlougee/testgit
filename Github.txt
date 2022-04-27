@@ -5,7 +5,7 @@ tlougee@transparent.com
 
 *********************************************************************************
 
-- Install Git on local system
+- Install Git on local system ( note Git Add wasn't working so Ihad to reinstall and uncheck new experimental monitoring on last installer screen to get Git to work )
 - Configure Git with your username and email address:
        C:\Users\tlougee>git config --global user.name "tlougee"
        C:\Users\tlougee>git config --global user.email "tlougee@gmail.com"
@@ -21,7 +21,8 @@ tlougee@transparent.com
    Ex: C:\Users\tlougee\>mkdir projects\testgit>git add github.txt
    - Use >git status command to see what files are in the staging area waiting to be commited
 -Commit the file(s)   C:\Users\tlougee\>mkdir projects\testgit>git commit -m "added github.txt"
-    -m allows you to include a short message about the commit 
+    -m allows you to include a short message about the commit
+    - >git add .  command lets you add all files to the staging area 
 
 
 
