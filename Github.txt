@@ -51,6 +51,18 @@ https://www.youtube.com/watch?v=DVRQoVRzMIY&ab_channel=TechWithTim
 - If there are merge conflicts you need to refresh the files and delete the crap git added and make the
   files look the way you want them to then add them back in the staging area then do a commit.
 - Now all you have to type is >git push to push the changes up to the remote repository  
+
+****** Using Github with Pycharm **********  https://www.youtube.com/watch?v=a8MckiothGc&ab_channel=TheoSuciu
+- Make a new repository on Github then go to the 'Code' button and copy the url
+- Make a new project in Pycharm
+- Create a local Git repository by clicking on version control tab in lower left or using 'VCS' menu item.
+   Both of these will change to 'Git' once you make a repository for this project.
+- Next go to the 'Git' menu and select 'Manage Remotes' and selecting the add '+' button.
+  - Paste in the URL to the Github repository.
+- Next go to 'Git' menu item and select 'Pull' and enter the branch to pull from in the Github repo 
+- After making code changes go to 'Git' menu and select 'Commit'  
+  
+
   
 
 
